@@ -1,1 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mental Wellness</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header class="header">
+  <div class="container nav">
+    <h1 class="logo">MindfulCare</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#resources">Resources</a>
+      <a href="#selfcare">Self‑Care</a>
+      <a href="#contact">Support</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero container">
+  <div class="hero-text">
+    <h2>Your Mental Health Matters</h2>
+    <p><!-- your text --></p>
+    <a class="btn" href="#resources">Explore Resources</a>
+  </div>
+  <div class="hero-img">
+    <img src="your-image.jpg" alt="">
+  </div>
+</section>
+
+<section id="about" class="section container">
+  <h2>About This Space</h2>
+  <p><!-- your text --></p>
+</section>
+
+<section id="resources" class="section container">
+  <h2>Resources</h2>
+  <div class="grid">
+    <div class="card"><h3>Anxiety</h3><p><!-- text --></p></div>
+    <div class="card"><h3>Depression</h3><p><!-- text --></p></div>
+    <div class="card"><h3>Stress</h3><p><!-- text --></p></div>
+    <div class="card"><h3>Support Others</h3><p><!-- text --></p></div>
+  </div>
+</section>
+
+<section id="selfcare" class="section container">
+  <h2>Self‑Care Ideas</h2>
+  <div class="grid">
+    <div class="card"><h3>Grounding</h3><p><!-- text --></p></div>
+    <div class="card"><h3>Journaling</h3><p><!-- text --></p></div>
+    <div class="card"><h3>Movement</h3><p><!-- text --></p></div>
+    <div class="card"><h3>Connection</h3><p><!-- text --></p></div>
+  </div>
+</section>
+
+<section id="contact" class="section container">
+  <h2>Reach Out</h2>
+  <p><!-- your text --></p>
+
+  <form class="contact-form">
+    <input type="text" placeholder="Name">
+    <input type="email" placeholder="Email">
+    <textarea rows="4" placeholder="Message"></textarea>
+    <button class="btn">Send</button>
+  </form>
+</section>
+
+<footer class="footer">
+  <p>&copy; <span id="year"></span> MindfulCare</p>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
 
