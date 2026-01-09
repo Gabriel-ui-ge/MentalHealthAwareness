@@ -28,6 +28,23 @@
     letter-spacing: 0.03em;
   }
 
+  .back-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 9px 10px;
+    margin-bottom: 16px;
+    background: #e0e0e0;
+    border-radius: 6px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 13px;
+  }
+
+  .back-btn:hover {
+    background: #cfcfcf;
+  }
+
   label {
     display: block;
     font-size: 13px;
@@ -74,6 +91,8 @@
 
 <div class="scheduler">
   <h2>Appointments</h2>
+
+  <a href="index.html" class="back-btn">Back to Home</a>
 
   <label for="name">Name</label>
   <input id="name" type="text">
