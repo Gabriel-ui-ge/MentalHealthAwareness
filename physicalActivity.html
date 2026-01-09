@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blue Combo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
 
+<body>
+
+<header class="header">
+  <div class="container nav">
+    <h1 class="logo">ABA | Reset</h1>
+    <nav>
+      <a href="index.html">Home</a>
+    </nav>
+  </div>
+</header>
+
+<section class="section container">
+  <h2>Move Your Body</h2>
+
+  <div class="video-box">
+    <video controls>
+      <source src= <!-- --><!-- Place holder for Building Resilience video --> type="video/mp4">
+    </video>
+  </div>
+
+  <div class="info-section">
+    <h3>Move Your Body</h3>
+    <p>Research from Mayo Clinic has proven that teens who perform regular physical activity tend to have improved mental health. Exercise stimulates the production of endorphins. Endorphins are a natural mood lifter in our brains. They reduce feelings of stress and anxiety. Moderate activities include walking, jogging, or playing a sport at a moderate pace. These can improve your mood, boost your self-confidence, and promote better sleep. Mayo Clinic focuses on consistent physical activity as a vital and effective way to manage stress and relieve symptoms of depression and anxiety in teenagers, supporting a life-long of improved mental well-being.</p>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>&copy; <span id="year"></span> ABA | Reset</p>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
